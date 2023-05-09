@@ -114,6 +114,13 @@ i:hover {
   border-radius: 10px;
 }
 
+.text-cutout i {
+  color: rgb(100, 163, 111, 1);
+  padding: 30px;
+  size: 20px;
+  margin-left: -40px;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -123,6 +130,13 @@ i:hover {
   .text-cutout {
     margin: 0 auto;
     padding: 20px;
+  }
+
+  .text-cutout i {
+    color: rgb(100, 163, 111, 1);
+    padding: 30px;
+    size: 20px;
+    margin-left: -40px;
   }
 }
 
@@ -135,6 +149,13 @@ i:hover {
   .text-cutout {
     margin: 0 auto;
     padding: 20px;
+  }
+
+  .text-cutout i {
+    color: rgb(100, 163, 111, 1);
+    padding: 30px;
+    size: 10px;
+    margin-left: -40px;
   }
 }
 
@@ -151,5 +172,12 @@ i:hover {
   .title-cream {
     width: 150px;
     margin-left: 10%;
+  }
+
+  .text-cutout i {
+    color: rgb(100, 163, 111, 1);
+    padding: 20px;
+    size: 7px;
+    margin-left: 10px;
   }
 }
