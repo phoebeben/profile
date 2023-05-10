@@ -60,6 +60,24 @@ h3 {
   position: relative;
 }
 
+.card-white .button-circle {
+  padding-top: 52px;
+  padding-bottom: 52px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 50%;
+  background: linear-gradient(109.6deg, rgb(251, 250, 225) 11.2%, rgb(206, 240, 185) 47.5%, rgb(100, 163, 111) 100.2%);
+  color: grey;
+  text-decoration: none;
+}
+
+.card-white .button-circle:hover {
+  background-image: url('images/dog.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .list-inline {
   list-style: none;
   padding-left: 0px;
